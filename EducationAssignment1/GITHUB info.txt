@@ -1,0 +1,18 @@
+(SSH)        git@github.com:TheSquibby/Squibby-EducationAssignment1.git
+(HTTPS)      https://github.com/TheSquibby/Squibby-EducationAssignment1.git
+(SUBVERSION) https://github.com/TheSquibby/Squibby-EducationAssignment1
+
+new branch - "git checkout -b branchname"
+https://github.com/TheSquibby/Squibby-EducationAssignment1.git
+
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b master origin/master
+git merge part1
+Step 2: Merge the changes and update on GitHub.
+
+git checkout part1
+git merge --no-ff master
+git push origin part1

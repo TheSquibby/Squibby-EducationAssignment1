@@ -1,0 +1,40 @@
+import java.util.*;
+
+package Oregon;
+
+/**
+ * @author Squibby
+ * This Class Hold the demographic information for the student 
+ * and employee classes to pull from
+ */
+public class Person {
+
+	private String fName, lName, Street, City, State, ZipCode, Phone;
+	private int ID, Age;
+	
+	
+	public Person(String PersonfName, String PersonlName, String PersonStreet, String PersonCity, 
+		String PersonState, String PersonZipCode, String PersonPhone, int PersonID, int PersonAge) {
+
+		fName = PersonfName;
+		lName = PersonlName;
+		Street = PersonStreet;
+		City = PersonCity;
+		State = PersonState;
+		ZipCode = PersonZipCode;
+		Phone = PersonPhone;
+		ID = PersonID;
+		
+		
+		
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
